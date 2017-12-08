@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDataDictionary", "MyDataDictionary\MyDataDictionary.csproj", "{61204AA5-4B44-431A-8E88-AA1E00C16F3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61204AA5-4B44-431A-8E88-AA1E00C16F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61204AA5-4B44-431A-8E88-AA1E00C16F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61204AA5-4B44-431A-8E88-AA1E00C16F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61204AA5-4B44-431A-8E88-AA1E00C16F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
