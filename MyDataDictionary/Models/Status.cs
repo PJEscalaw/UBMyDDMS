@@ -10,5 +10,7 @@ namespace MyDataDictionary.Models
         public int StatusID { get; set; }
         public string Name { get; set; }
         public int Flag { get; set; }
+
+        public ICollection<Problems> Problems { get; set; }
     }
 }

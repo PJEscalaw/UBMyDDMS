@@ -136,6 +136,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Letters.cs" />
+    <Compile Include="Models\MyDbContext.cs" />
     <Compile Include="Models\Problems.cs" />
     <Compile Include="Models\Reports.cs" />
     <Compile Include="Models\Severities.cs" />
