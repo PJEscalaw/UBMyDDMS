@@ -13,7 +13,7 @@ namespace MyDataDictionary.Models
         public DateTime DateCreated { get; set; }
         public string Severity { get; set; }
         public DateTime DateResolved { get; set; }
-        //public string Re { get; set; }
+        public string StatusID { get; set; }
         public int Flag { get; set; }
 
     }
