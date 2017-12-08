@@ -8,6 +8,7 @@ namespace MyDataDictionary.Models
 {
     public class MyDbContext : DbContext
     {
+        public MyDbContext() : base("DDMS") { }
         public DbSet<Status> Status { get; set; }
         public DbSet<Problems> Problems { get; set; }
     }

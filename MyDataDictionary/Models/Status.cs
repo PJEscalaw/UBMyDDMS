@@ -11,6 +11,6 @@ namespace MyDataDictionary.Models
         public string Name { get; set; }
         public int Flag { get; set; }
 
-        public ICollection<Problems> Problems { get; set; }
+        public ICollection<Problems> Problem { get; set; }
     }
 }
