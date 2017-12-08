@@ -7,9 +7,14 @@ namespace MyDataDictionary.Models
 {
     public class Users
     {
-        public int UserID { get; set; }
+        public int UsersID { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public int Flag { get; set; }
+
+        public ICollection<Reports> Reports { get; set; }
+        public ICollection<Letters> Letters { get; set; }
+        public ICollection<Problems> Problems { get; set; }
+
     }
 }

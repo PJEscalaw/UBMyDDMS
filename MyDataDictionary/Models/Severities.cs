@@ -7,8 +7,10 @@ namespace MyDataDictionary.Models
 {
     public class Severities
     {
-        public int ServerityID { get; set; }
+        public int SeveritiesID { get; set; }
         public string Name { get; set; }
         public int Flag { get; set; }
+
+        public ICollection<Problems> Problems { get; set; }
     }
 }

@@ -135,9 +135,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201712081630596_Initial.cs" />
-    <Compile Include="Migrations\201712081630596_Initial.Designer.cs">
-      <DependentUpon>201712081630596_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201712081700444_initial.cs" />
+    <Compile Include="Migrations\201712081700444_initial.Designer.cs">
+      <DependentUpon>201712081700444_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712081704106_initial1.cs" />
+    <Compile Include="Migrations\201712081704106_initial1.Designer.cs">
+      <DependentUpon>201712081704106_initial1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712081709313_initial2.cs" />
+    <Compile Include="Migrations\201712081709313_initial2.Designer.cs">
+      <DependentUpon>201712081709313_initial2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Letters.cs" />
@@ -167,8 +175,14 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201712081630596_Initial.resx">
-      <DependentUpon>201712081630596_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201712081700444_initial.resx">
+      <DependentUpon>201712081700444_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712081704106_initial1.resx">
+      <DependentUpon>201712081704106_initial1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712081709313_initial2.resx">
+      <DependentUpon>201712081709313_initial2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

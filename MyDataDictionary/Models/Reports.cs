@@ -7,7 +7,7 @@ namespace MyDataDictionary.Models
 {
     public class Reports
     {
-        public int ReporterID { get; set; }
+        public int ReportsID { get; set; }
         public string Name{ get; set; }
         public string ReporterFor { get; set; }
         public string  Navigation { get; set; }
@@ -16,5 +16,8 @@ namespace MyDataDictionary.Models
         public string Calculation { get; set; }
         public DateTime DateCreated { get; set; }
         public int  Flag { get; set; }
+
+        public int UsersID { get; set; }
+        public Users Users { get; set; }
     }
 }
