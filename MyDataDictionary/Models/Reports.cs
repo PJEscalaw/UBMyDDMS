@@ -17,6 +17,9 @@ namespace MyDataDictionary.Models
         public DateTime DateCreated { get; set; }
         public int  Flag { get; set; }
 
+        /***
+         * Foreign Keys
+         */
         public int UsersID { get; set; }
         public Users Users { get; set; }
     }

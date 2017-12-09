@@ -12,6 +12,11 @@ namespace MyDataDictionary.Models
         public string Password { get; set; }
         public int Flag { get; set; }
 
+
+
+        /***
+         * Foreign Key
+         */
         public ICollection<Reports> Reports { get; set; }
         public ICollection<Letters> Letters { get; set; }
         public ICollection<Problems> Problems { get; set; }

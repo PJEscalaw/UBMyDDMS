@@ -16,14 +16,15 @@ namespace MyDataDictionary.Models
         public DateTime DateResolved { get; set; }
         public int Flag { get; set; }
 
-
+        /***
+         * Foreign Keys
+         */
         public int UsersID { get; set; }
         public Users Users { get; set; }
 
         public int SeveritiesID { get; set; }
         public Severities Severities { get; set; }
 
-        //Foreign Key
         public int StatusID { get; set; }
         public Status Status { get; set; }
      
